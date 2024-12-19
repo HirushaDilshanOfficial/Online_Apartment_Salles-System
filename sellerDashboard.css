@@ -1,0 +1,147 @@
+/* General styles for body and content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.tabSystem {
+    padding: 20px;
+}
+
+.seller-profile {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Seller profile section */
+.seller-profile h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.seller-profile p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Form styles */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Tab content styles */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.tabTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Specific styles for the "users" section */
+.users {
+    margin-top: 20px;
+}
+
+.user__table {
+    overflow-x: auto;
+}
+
+button[name="update"], button[name="delete"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[name="delete"] {
+    background-color: #dc3545;
+}
+
+button[name="update"]:hover, button[name="delete"]:hover {
+    opacity: 0.85;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .seller-profile, form, .tabcontent {
+        padding: 15px;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+}

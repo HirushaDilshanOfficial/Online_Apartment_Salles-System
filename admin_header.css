@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f2efef;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+.logo-placeholder img {
+  width: 80px; 
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0d0c0d;
+  position: relative;
+  font-weight: 500;
+}
+
+nav ul li a.active {
+  color: #007bff;
+}
+
+.auth-buttons button {
+  padding: 8px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.login {
+  background-color: #007bff;
+  color: #f4efef;
+  border: 1px solid #ddd;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}
+
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  left: 0;
+  bottom: -3px; 
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%; 
+}

@@ -1,0 +1,139 @@
+/* contactUs.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 5vw; /* Responsive padding */
+}
+
+.contact-section {
+    max-width: 900px; /* Flexible max width */
+    margin: 0 auto; /* Center the section */
+    background-color: #fff; /* White background for content */
+    padding: 20px; /* Inner padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.contact-header h1 {
+    text-align: center; /* Center the header */
+    font-size: 2.5rem; /* Large font size */
+    color: #2980b9; /* Blue color */
+    margin-bottom: 30px; /* Space below the header */
+    text-transform: uppercase; /* Uppercase letters */
+    letter-spacing: 2px; /* Letter spacing */
+}
+
+.contact-info {
+    display: flex; /* Flex layout */
+    justify-content: center; /* Center the items */
+    margin-bottom: 20px; /* Space below contact info */
+    text-align: center; /* Center text */
+}
+
+.contact-item {
+    margin: 0 20px; /* Spacing between items */
+}
+
+.contact-item h3 {
+    color: #2c3e50; /* Dark blue color */
+    font-size: 1.25rem; /* Medium font size */
+}
+
+.contact-item p {
+    color: #555; /* Gray color */
+    font-size: 1rem; /* Base font size */
+    margin-top: 5px; /* Space above paragraph */
+}
+
+/* Adjust alignment for contact items */
+.contact-info .contact-item:first-child,
+.contact-info .contact-item:last-child {
+    flex: 1; /* Equal space for first and last item */
+    text-align: center; /* Center text */
+}
+
+.contact-info .contact-item:nth-child(2) {
+    flex: 2; /* More space for phone item */
+}
+
+.form-container h2 {
+    color: #2980b9; /* Blue color */
+    font-size: 1.5rem; /* Medium font size */
+    margin-bottom: 10px; /* Space below the title */
+    text-transform: capitalize; /* Capitalized text */
+}
+
+.form-container p {
+    color: #555; /* Gray color */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+/* Fieldset and legend styles */
+fieldset {
+    border: 2px solid #2980b9; /* Blue border */
+    padding: 20px; /* Inner padding */
+    margin-bottom: 20px; /* Space below fieldset */
+    border-radius: 8px; /* Rounded corners */
+}
+
+legend {
+    color: #2980b9; /* Blue color */
+    font-size: 1.75rem; /* Larger font size */
+    padding: 0 10px; /* Padding for legend */
+    font-weight: bold; /* Bold font */
+    text-transform: capitalize; /* Capitalized text */
+}
+
+.inquire-form {
+    display: flex; /* Flex layout */
+    flex-direction: column; /* Column direction */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block; /* Block display for labels */
+    font-size: 1rem; /* Base font size */
+    margin-bottom: 5px; /* Space below label */
+    color: #2c3e50; /* Dark blue color */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Base font size */
+    color: #333; /* Dark gray color */
+}
+
+textarea {
+    height: 100px; /* Fixed height */
+    resize: none; /* Disable resizing */
+}
+
+button[type="submit"] {
+    padding: 10px 20px; /* Inner padding */
+    font-size: 1rem; /* Base font size */
+    color: #fff; /* White text */
+    background-color: #2980b9; /* Blue background */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #1a5c84; /* Darker blue on hover */
+}

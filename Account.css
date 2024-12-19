@@ -1,0 +1,126 @@
+/* Account.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9; /* Light background */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Padding around the body */
+}
+
+.container {
+    max-width: 900px; /* Maximum width of the container */
+    margin: auto; /* Center the container */
+    background-color: #fff; /* White background */
+    padding: 20px; /* Inner padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.header {
+    display: flex; /* Flexbox for header layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.header h1 {
+    font-size: 2rem; /* Font size for header */
+    color: #2980b9; /* Blue color */
+}
+
+.logout-btn {
+    padding: 10px 15px; /* Inner padding */
+    background-color: #e74c3c; /* Red background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.logout-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+.profile-section {
+    display: flex; /* Flexbox layout for profile */
+    justify-content: center; /* Center items */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 30px; /* Space below the profile section */
+}
+
+.profile-image img {
+    border-radius: 50%; /* Circular image */
+    border: 2px solid #2980b9; /* Blue border */
+    width: 250px; /* Fixed width */
+    height: 200px; /* Fixed height */
+}
+
+.profile-details {
+    margin-left: 20px; /* Space to the left of the profile details */
+}
+
+.profile-details h2 {
+    color: #2980b9; /* Blue color for name */
+    margin-bottom: 10px; /* Space below the name */
+}
+
+table {
+    width: 100%; /* Full width of the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 10px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px; /* Inner padding for cells */
+    text-align: left; /* Left align text */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+th {
+    background-color: #2980b9; /* Blue background for headers */
+    color: white; /* White text in headers */
+}
+
+.edit-section {
+    margin-top: 30px; /* Space above the edit section */
+}
+
+.edit-profile, .change-password {
+    margin-bottom: 20px; /* Space below each section */
+    padding: 15px; /* Inner padding */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+.edit-profile h3, .change-password h3 {
+    color: #2980b9; /* Blue color for section titles */
+}
+
+.edit-profile input, .change-password input {
+    width: 100%; /* Full width of input fields */
+    padding: 10px; /* Inner padding */
+    margin: 5px 0; /* Margin above and below */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button[type="submit"] {
+    padding: 10px 15px; /* Inner padding */
+    background-color: #2980b9; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #1a5c84; /* Darker blue on hover */
+}

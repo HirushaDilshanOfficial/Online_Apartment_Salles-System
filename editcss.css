@@ -1,0 +1,70 @@
+h2 {
+    color:#00AFB9;
+}
+
+.account-form label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.acc-info {
+    background-color:#f9f9f9;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+   
+}
+/* .acc-info h2 {
+    margin-bottom: 20px;
+    text-align: center;
+} */
+
+.acc-info input,
+.acc-info textarea {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit {
+    background-color: #0081A7;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px; 
+    transition: background-color 0.3s;
+    margin-bottom: 80px;
+}
+
+.submit:hover {
+    background-color: #00AFB9;
+    color:black;
+    border: 1px solid black;
+}
+
+.reset {
+    background-color: #0081A7;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px; 
+    transition: background-color 0.3s;
+    margin-bottom: 80px;
+}
+
+.reset:hover {
+    background-color: #00AFB9;
+    color:black;
+    border: 1px solid black;
+}

@@ -1,0 +1,66 @@
+/* T&C.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 1rem; /* Use relative units for font sizes */
+    line-height: 1.6;
+    padding: 5vw; /* Use viewport width for flexible padding */
+}
+
+.container {
+    max-width: 80%; /* Use percentage for flexible width */
+    margin: 0 auto;
+    padding: 2em; /* Relative padding */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.75rem; /* Relative font size */
+    margin-bottom: 1em;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #2980b9;
+}
+
+p {
+    margin-bottom: 1.5em;
+    color: #555;
+}
+
+b {
+    color: #2c3e50;
+}
+
+section {
+    padding-left: 2%;
+    border-left: 5px solid #2980b9;
+    margin-bottom: 2em; /* Added margin to separate sections */
+}
+
+section p {
+    text-align: justify;
+}
+
+ul {
+    margin-left: 20px; /* Indent the unordered list */
+    margin-bottom: 1.5em; /* Space between list and next content */
+}
+
+ul li {
+    margin-bottom: 0.5em; /* Space between list items */
+}

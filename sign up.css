@@ -1,0 +1,98 @@
+
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .auth-buttons button {
+            background-color: #00a8ff;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        main {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .signup-form {
+            width: 300px;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+        .signup-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .signup-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4267B2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-link, .terms {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        .login-link a, .terms a {
+            color: #00a8ff;
+            text-decoration: none;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .social-icons a {
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+    

@@ -1,0 +1,105 @@
+.details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#f9f9f9;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+.name {
+    padding-left: 80px;
+}
+
+.log-out {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.log-out a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px; 
+    transition: background-color 0.3s;
+    margin-bottom: 80px; 
+}
+
+.delete-btn {
+    background-color: #F07167;
+    color: white;
+    margin-right: 10px;
+}
+
+.logout-btn {
+    background-color: #F07167;
+    color: white;
+    margin-right: 10px;
+}
+
+.edit-btn {
+    text-decoration: none;
+    margin-right: 10px;
+    width: 100px;
+    margin-bottom: 80px;
+}
+
+.delete-btn:hover {
+    background-color: #FED9B7;
+    color:#F07167;
+    border: 1px solid #F07167;
+}
+
+.logout-btn:hover {
+    background-color: #FED9B7;
+    color:#F07167;
+    border: 1px solid #F07167;
+}
+
+.edit-btn:hover {
+    color: #F07167;
+}
+
+h2 {
+    color:#00AFB9;
+}
+
+.acc-info {
+    
+    background-color:#f9f9f9;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.acc-info label {
+    display: inline-block;
+    width: 450px;
+    margin-bottom: 10px;
+    text-align: left;
+    align-items: center;
+}
+
+.changepss-btn {
+    background-color: #0081A7;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px; 
+    transition: background-color 0.3s;
+    margin-bottom: 80px;
+}
+
+.changepss-btn:hover {
+    background-color: #00AFB9;
+    color:black;
+    border: 1px solid black;
+}
